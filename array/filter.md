@@ -56,6 +56,13 @@ function myFunction() {
   document.getElementById("demo").innerHTML = olds.filter((odd) => return ((odd % 2) == 0); );
 }
 ```
+    
+```
+var olds = [32,33,16,40];
+function myFunction() {
+  document.getElementById("demo").innerHTML = olds.filter(odd => return ((odd % 2) == 0); );
+}
+```    
 
 
 
