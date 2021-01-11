@@ -48,7 +48,7 @@ var numbers = [12,4,3,33,11,67,120];
 
 function myFunction(item) {
   document.getElementById("demo").innerHTML = numbers.reduce(
-    (total, num, indexArray, arrOrigin) => total + num; , 0);  
+    (total, num, indexArray, arrOrigin) => total + num, 0);  
 }
 ```
 
